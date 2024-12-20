@@ -1,0 +1,14 @@
+#+TITLE: jade-mode
+#+AUTHOR: laluxx
+
+* Install
+Clone it
+#+begin_src shell
+git clone https://github.com/laluxx/jade-mode ~/.config/emacs/lisp/jade-mode
+#+end_src
+
+Add to init.el
+#+begin_src elisp
+(use-package jade-mode
+  :load-path "~/.config/emacs/lisp/jade-mode")
+#+end_src
